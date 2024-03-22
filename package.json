@@ -1,0 +1,30 @@
+{
+  "name": "porroveritatis",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DaijaBrown/porroveritatis.git"
+  },
+  "description": "DNS Packet handling in pure javascript",
+  "engines": {
+    "node": ">= 14.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "lab --coverage --flat",
+    "lint": "eslint ."
+  },
+  "author": "MaidaCrist",
+  "license": "MIT",
+  "homepage": "https://github.com/DaijaBrown/porroveritatis.git",
+  "dependencies": {
+    "debug": "^2.1.0",
+    "qap": "^3.1.2"
+  },
+  "devDependencies": {
+    "@hapi/code": "*",
+    "eslint": "*",
+    "@hapi/lab": "*",
+    "native-dns-packet": "0.1.1"
+  }
+}
